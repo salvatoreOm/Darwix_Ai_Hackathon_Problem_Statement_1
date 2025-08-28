@@ -1,0 +1,8 @@
+{
+  "code_snippet": "function calculateTotal(items) {\n    var total = 0;\n    for (var i = 0; i < items.length; i++) {\n        total = total + items[i].price;\n    }\n    return total;\n}",
+  "review_comments": [
+    "Don't use var, it's outdated.",
+    "This could be done with reduce() method.",
+    "No error handling for invalid inputs."
+  ]
+}

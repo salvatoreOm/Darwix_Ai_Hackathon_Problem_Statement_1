@@ -1,0 +1,9 @@
+{
+  "code_snippet": "class DataProcessor:\n    def __init__(self):\n        self.data = []\n    \n    def process(self, input_data):\n        for item in input_data:\n            self.data.append(item.upper())\n        return self.data",
+  "review_comments": [
+    "This is terrible code. You're mutating state everywhere.",
+    "This class is useless and adds no value.",
+    "You don't handle None inputs, this will crash.",
+    "Variable names are awful and non-descriptive."
+  ]
+}
